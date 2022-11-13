@@ -1,0 +1,275 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .logo{
+            padding-left: 20px;
+        }
+        .nvg{
+            background-color: transparent;
+            display: flex;
+        }
+        .header{
+            display: flex;
+            height: 80px;
+            background-color: black;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        li{
+            list-style-type: none;
+            margin-left: 20px;
+        }
+        button{
+            background-color: transparent;
+            border: 0px solid transparent;
+        }
+        .play{
+            height: 15px;
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            margin-right: 20px;
+            background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);
+            border: 1px solid transparent;
+            border-radius: 12px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .logo1{
+            width: 260px;
+            height: 153px;
+        }
+        .pfs{
+            /* height: 500px; */
+            position: relative;
+            height: calc(100vh -80px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .playfree{
+            margin-top: 12px;
+            border: 5px solid rgb(255, 51, 66);
+            background-color:rgb(255, 51, 66);
+            padding: 8px;
+            border-radius: 6px;
+            width: 150px;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pfs video {
+            width: 100%;
+            height: 100%;
+        }
+        .val{
+            fill: white;
+            height: 100px;
+            color: white;
+            font-size: 80px;
+        }
+        .riot{
+            fill: white;
+        }
+        .playbutton{
+            color: black;
+        }
+        .description{
+            color: white;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .playfreecontainer{
+            display: flex;
+            justify-content: center;
+        }
+        .gtnp{
+            display: flex;
+            justify-content: flex-end;
+            margin: 30px;
+        }
+        .gtnpc{
+            color: red;
+        }
+        .middleline{
+            margin: 20px;
+            display: flex;
+        }
+        .nvgbuttons{
+            color:white;
+        }
+        .playfreea{
+            color: white;
+        }
+        .gameupdates{
+            color: red;
+            margin-left: 30px;
+        }
+        .waves{
+            font-size: 20px;
+            color: black;
+        }
+        .updates{
+            display: flex;
+            justify-content: space-between;
+        }
+        .arrow{
+            height: 15px;
+        }
+        .overview{
+            position: relative;
+            right: 500px;
+        }
+        .dim{
+            position: relative;
+            right: 350px;
+        }
+        .dime{
+            font-size: 22px;
+            position: relative;
+            right: 435px;
+        }
+        .code{
+            color: red;
+            margin-right: 120px;
+        }
+        .alsocontainer{
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrv{
+            margin-left: 300px;
+            font-size: 75px;
+        }
+        .vlrt1{
+            margin-top: 40px;
+        }
+        .thegpvd{
+            height: 500px;
+            width: 620px;
+        }
+        .dfl{
+            display: flex;
+        }
+        .dflinfo{
+            display: flex;
+            flex-direction: column;
+            margin: 75px;
+            margin-left: 450px;
+            margin-right: 300px;
+            font-size: 18px;
+        }
+        .dfld{
+            margin-top: 20px;
+        }
+        .lethga{
+            color: white;
+            border: 5px solid rgb(255, 51, 66);
+            background-color:rgb(255, 51, 66);
+            border-radius: 5px;
+            height: 40px;
+            margin-top: 20px;
+        }
+        .reyra{
+            margin-left: 100px;
+        }
+        .agents{
+            display: flex;
+        }
+        .asumup{
+            margin-left: 300px;
+            margin-right: 400px;
+        }
+        .agh1{
+            font-size: 70px;
+        }
+        .agh5{
+            font-size: 20px;
+            margin: 17px;
+        }
+        .agp{
+            font-size: 18px;
+        }
+        .VAAg{
+            background: black;
+            color: white;
+            height: 35px;
+            width: 300px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .HomeMaps-module--img--ejfs9{
+            width: 100%;
+        }
+        .mh1{
+            font-size: 70px;
+        }
+        .mh5{
+            font-size: 30px;
+            margin: 15px;
+        }
+        .mp{
+            font-size: 25px;
+        }
+        .maps{
+            margin-right: 1000px;
+            position: relative;
+            top: 400px;
+            left: 100px;
+        }
+        .mbutton{
+            color: white;
+            background:rgb(255, 51, 66);
+            border-radius: 5px;
+            height: 40px;
+            width: 200px;
+            margin-top: 20px;
+            position: relative;
+            left: 150px;
+        }
+        .end{
+            background: #7e7e7e;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dgcl{
+            color: white;
+            margin: 0px 15px;
+        }
+        .footer{
+            background: black;
+        }
+        .pointer-hover{
+            fill: white;
+            height: 30px;
+        }
+        .footer{
+            color: white;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .wboa{
+            color: rgb(255, 51, 66)
+        }
+        
